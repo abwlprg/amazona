@@ -19,7 +19,19 @@ mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/amazona', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
+}).catch((err) => {
+  console.error(err.message); //Handles initial connection errors
+  process.exit(1); // Exit process with failure
 });
+
+const mondb = mongoose.connection;
+mondb.on('error', () => {
+  console.log('> error occurred from the database');
+});
+mondb.once('open', () => {
+  console.log('> successfully opened the database');
+});
+
 app.use('/api/uploads', uploadRouter);
 app.use('/api/users', userRouter);
 app.use('/api/products', productRouter);
