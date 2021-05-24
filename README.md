@@ -30,7 +30,7 @@ I use MongoDB at and Node.js all the time.
 ### 1. Clone repo
 
 ```
-$ git clone git@github.com:basir/amazona.git
+$ git clone git@github.com:abwlprg/amazona.git
 $ cd amazona
 ```
 
