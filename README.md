@@ -4,15 +4,15 @@
 # MERN: MongoDB Express React Node Website.
 
 I needed to practice more for the position I am in the running for. I have to 
-practice more MERN website development. 
+practice more MERN website development like this.
 
 Made a MERN website.
 
-I use MongoDB at and Node.js all the time. React is where I need to practice more.
+I use MongoDB at and Node.js all the time. React is where I need to practice more since I have not used it in a while.
 
 ## Demo Website
 
-- 👉 Heroku : [https://amazona-ecommerce-app.herokuapp.com/](https://amazona-ecommerce-app.herokuapp.com/)
+<!-- - 👉 Heroku : [https://amazona-ecommerce-app.herokuapp.com/](https://amazona-ecommerce-app.herokuapp.com/) -->
 
 
 ## Technologies Used
@@ -28,7 +28,7 @@ I use MongoDB at and Node.js all the time. React is where I need to practice mor
 - Development: ESLint, Babel, Git, Github,
 - Deployment: Heroku
     - At time of deployment the Heroku deployment is still not running correctly.
-    -
+    -Seeding and Heroku..fml;
 
 ## Run Locally
 

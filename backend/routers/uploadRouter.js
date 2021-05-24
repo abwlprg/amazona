@@ -3,7 +3,8 @@ import express from 'express';
 import { isAuth } from '../utils.js';
 import aws from 'aws-sdk';
 import { config } from 'dotenv';
-import { keyBy } from 'lodash';
+import multerS3 from 'multer-s3;'
+
 
 const uploadRouter = express.Router();
 
@@ -28,15 +29,18 @@ aws.config.update({
 });
 
 const s3 = new aws.S3();
-const storageS3 = multerS3 ({
-  s3,
+const storageS3 = multer ({
+  s3: s3,
+  storage: multerS3,
   bucket: 'amazonatestbucket',
   acl:'public_read',
   contentType: multerS3.AUTO_CONTENT_TYPE,
   keyBy(req, file, cb) {
     cb(null, file.originalname)
   },
-});
+
+})
+
 const uploadS3 = multer ({storage:storageS3});
 router.post('/s3', uplopadS3.single('image'), (req, res) => {
   res.send(req.file.location);
