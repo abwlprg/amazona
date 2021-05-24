@@ -1,20 +1,21 @@
 # Amazona ECommerce Website
 ![amazona](/template/images/amazona.jpg)
 
-## PLEASE DO NOT SEND PULL REQUEST
-## ALL PRs WILL BE REJECTED UNTIL DECEMBER 2020
+# MERN: MongoDB Express React Node Website.
 
-# React & Node Tutorial - Full ECommerce in 9 Hours [2021]
+I needed to practice more for the position I am in the running for. I have to 
+practice more MERN website development. 
 
-Welcome to my React and Node tutorial to build a fully-functional e-commerce website exactly like amazon. Open your code editor and follow me for the next hours to build an e-commerce website using MERN stack (MongoDB, ExpressJS, React and Node.JS).
+Made a MERN website.
+
+I use MongoDB at and Node.js all the time.
 
 ## Demo Website
 
 - 👉 Heroku : [https://newamazona-final.herokuapp.com](https://newamazona-final.herokuapp.com)
-- 👉 AWS : [https://amazona.webacademy.pro](https://amazona.webacademy.pro)
 
 
-## You Will Learn
+## Technologies Used
 
 - HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
 - React: Components, Props, Events, Hooks, Router, Axios
@@ -23,7 +24,6 @@ Welcome to my React and Node tutorial to build a fully-functional e-commerce web
 - MongoDB: Mongoose, Aggregation
 - Development: ESLint, Babel, Git, Github,
 - Deployment: Heroku
-- Watch React & Node Tutorial
 
 ## Run Locally
 
