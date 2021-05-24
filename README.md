@@ -8,11 +8,11 @@ practice more MERN website development.
 
 Made a MERN website.
 
-I use MongoDB at and Node.js all the time.
+I use MongoDB at and Node.js all the time. React is where I need to practice more.
 
 ## Demo Website
 
-- 👉 Heroku : [https://newamazona-final.herokuapp.com](https://newamazona-final.herokuapp.com)
+- 👉 Heroku : [https://amazona-ecommerce-app.herokuapp.com/](https://amazona-ecommerce-app.herokuapp.com/)
 
 
 ## Technologies Used
