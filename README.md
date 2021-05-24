@@ -22,8 +22,13 @@ I use MongoDB at and Node.js all the time. React is where I need to practice mor
 - Redux: Store, Reducers, Actions
 - Node & Express: Web API, Body Parser, File Upload, JWT
 - MongoDB: Mongoose, Aggregation
+    - Aggregation operations process data records and return computed results. Aggregation operations group values from multiple documents together, and can perform a variety of operations on the grouped data to return a single result. MongoDB provides three ways to perform aggregation: the aggregation pipeline, the map-reduce function, and single purpose aggregation methods.
+
+
 - Development: ESLint, Babel, Git, Github,
 - Deployment: Heroku
+    - At time of deployment the Heroku deployment is still not running correctly.
+    -
 
 ## Run Locally
 
